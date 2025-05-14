@@ -4,6 +4,7 @@ namespace GISWebApp.Models
 {
     public class Prodcuts 
     {
+        //ammar
         public int id { get; set; }
         public string prodcutName { get; set; }
         public float prodcutPrice { get; set; }
