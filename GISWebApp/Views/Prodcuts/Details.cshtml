@@ -1,0 +1,16 @@
+﻿<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card" style="width: 18rem;">
+        <img src="~/Images/@Model.prodcutImageUrl" class="card-img-top mx-auto d-block" alt="..." style="width: 200px;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.prodcutName</h5>
+            <p class="card-text">@Model.prodcutDescription</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model.prodcutPrice</li>
+            <li class="list-group-item">@Model.sellerName</li>
+        </ul>
+        <div class="card-body">
+            <a href="/prodcuts/all" class="card-link">All prodcuts</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿<div class="d-flex justify-content-center align-items-center vh-100">
+    <div>
+        @foreach (Prodcuts item in Model)
+        {
+            <div class="card mb-3 mx-auto" style="width: 18rem;">
+                <img src="~/Images/@item.prodcutImageUrl" class="card-img-top mx-auto d-block" alt="..." style="width: 100px;">
+                <div class="card-body">
+                    <h5 class="card-title">@item.prodcutName</h5>
+                    <p class="card-text">@item.prodcutDescription</p>
+                    <a href="/prodcuts/details/@item.id" class="btn btn-primary">For more details</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
